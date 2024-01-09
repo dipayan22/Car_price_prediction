@@ -5,24 +5,24 @@ from pathlib import Path
 
 logging.basicConfig(level=logging.INFO)
 
-project_name="Second Hand Car Price Prediction"
+project_name="Second_Hand_Car_Price_Prediction"
 
 list_of_files=[
     # ".github/workflows/gitkeep",
-    f"src/{project_name}/__init__.py",
-    f"src/{project_name}/components/__init__.py",
-    f"src/{project_name}/components/data_ingestion.py",
-    f"src/{project_name}/components/data_transformation.py",
-    f"src/{project_name}/components/model_trainer.py",
-    f"src/{project_name}/components/model_monitering.py",
-    f"src/{project_name}/pipelines/__init__.py",
-    f"src/{project_name}/pipelines/training_pipeline.py",
-    f"src/{project_name}/pipelines/prediction_pipeline.py",
-    f"src/{project_name}/exception.py",
-    f"src/{project_name}/logger.py",
-    f"src/{project_name}/utils.py",
+    f"src/__init__.py",
+    f"src/components/__init__.py",
+    f"src/components/data_ingestion.py",
+    f"src/components/data_transformation.py",
+    f"src/components/model_trainer.py",
+    f"src/components/model_monitering.py",
+    f"src/pipelines/__init__.py",
+    f"src/pipelines/training_pipeline.py",
+    f"src/pipelines/prediction_pipeline.py",
+    f"src/exception.py",
+    f"src/logger.py",
+    f"src/utils.py",
     "main.py",
-    "app,py",
+    "app.py",
     "Dockerfile",
     "requirements.txt",
     "setup.py"
